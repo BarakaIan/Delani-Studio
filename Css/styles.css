@@ -1,0 +1,48 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-family: helvetica;
+}
+.Icons {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    color: black;
+    font-size:xx-large;
+    font-family: monospace;
+}
+.folio {
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.CENTERED {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-family: helvetica;
+}
+.txt {
+    color: white;
+    font-family: initial;
+}
+
+.Cntrd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-family: helvetica;
+}
