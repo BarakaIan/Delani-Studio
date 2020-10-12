@@ -25,14 +25,7 @@
     font-size: xx-large;
     font-family: fantasy;
 }
-.CENTERED {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: larger;
-    font-family: helvetica;
-}
+
 .txt {
     color: white;
     font-family: initial;
@@ -59,5 +52,37 @@
     font-size: larger;
     font-family: helvetica;
 }
-
+.IMAGES {
+    justify-content: space-between;
+}
+.Delani {
+    background-image: url(../Images/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.services {
+    background-image: url(../Images/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.background {
+    background-image: url(../Images/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.icon {
+    align-items: center;
+    text-align: center;
+}
+.emblem {
+    display: flex;
+}
+.hidden {
+    display: none;
 }
