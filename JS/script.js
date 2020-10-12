@@ -28,7 +28,32 @@ $(document).ready(function () {
 
 
 
-
+$(document).ready(function(){
+    $(".img1").hover(function(){
+        $(".p1").toggle();
+    });
+    $(".img2").hover(function(){
+        $(".p2").toggle();
+    });
+    $(".img3").hover(function(){
+        $(".p3").toggle();
+    });
+    $(".img4").hover(function(){
+        $(".p4").toggle();
+    });
+    $(".img5").hover(function(){
+        $(".p5").toggle();
+    });
+    $(".img6").hover(function(){
+        $(".p6").toggle();
+    });
+    $(".img7").hover(function(){
+        $(".p7").toggle();
+    });
+    $(".img8").hover(function(){
+        $(".p8").toggle();
+    });
+})
 
 
 

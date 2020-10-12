@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <script src="/JS/jquery-3.5.1.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="Delani">
@@ -47,42 +49,50 @@
         <div class=text>
             <h5>WHAT WE DO</h5>
             <div class="emblem">
-
-                <div class="IconsA">
-                    <img src="./Images/assets/services_icons/design_icon.png">
-                    <div class="hidden">
-                        <p>Our design offers a full range of services including
-                            brand strategy, interaction and visual design and user experience
-                            testing.
-                        </p>
-                        <p>Throughout your project, our designers create and implement
-                            visual design and workflows, solicit user feedback
-                            and work with you to make sure what gets built is what is needed.
-                        </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="IconsA">
+                            <img src="./Images/assets/services_icons/design_icon.png">
+                            <div class="hidden">
+                                <p>Our design offers a full range of services including
+                                    brand strategy, interaction and visual design and user experience
+                                    testing.
+                                </p>
+                                <p>Throughout your project, our designers create and implement
+                                    visual design and workflows, solicit user feedback
+                                    and work with you to make sure what gets built is what is needed.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="IconsB">
-                    <img src="./Images/assets/services_icons/dev_icon.png">
-                    <div class="hidden">
-                        <p>All engineers are fluent in the latest
-                            enterprise and web development technologies
-                        </p>
-                        <p>They collaborate with your team
-                            to write, and improve on daily
-                            basis, using proven practices such as
-                            test-driven development and pairr proramming.
-                        </p>
+                    <div class="col-md-4">
+                        <div class="IconsB">
+                            <img src="./Images/assets/services_icons/dev_icon.png">
+                            <div class="hidden">
+                                <p>All engineers are fluent in the latest
+                                    enterprise and web development technologies
+                                </p>
+                                <p>They collaborate with your team
+                                    to write, and improve on daily
+                                    basis, using proven practices such as
+                                    test-driven development and pairr proramming.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="IconsC">
-                    <img src="./Images/assets/services_icons/product_icon.png">
-                    <div class="hidden">
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the
-                            products we
-                            build are
-                            always ready to go live.
-                        </p>
-                        <p>This iterative process allows for changes as business requirements evolve.</p>
+                    <div class="col-md-4">
+                        <div class="IconsC">
+                            <img src="./Images/assets/services_icons/product_icon.png">
+                            <div class="hidden">
+                                <p>Planning and development is iterative. Because we are constantly coding and testing,
+                                    the
+                                    products we
+                                    build are
+                                    always ready to go live.
+                                </p>
+                                <p>This iterative process allows for changes as business requirements evolve.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,33 +104,84 @@
 
     <div class="IMAGES">
         <h6>PORTFOLIO</h6>
-        <img src="./Images/assets/portfolio/work2.jpg">
-        <img src="./Images/assets/portfolio/work3.jpg">
-        <img src="./Images/assets/portfolio/work4.jpg">
-        <img src="./Images/assets/portfolio/work5.jpg">
-        <img src="./Images/assets/portfolio/work6.jpg">
-        <img src="./Images/assets/portfolio/work7.jpg">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/Images/assets/portfolio/work1.jpg" class="img1">
+                    <p class="p1">This is an image</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Images/assets/portfolio/work2.jpg" class="img2">
+                    <p class="p2">this is an image</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Images/assets/portfolio/work3.jpg" class="img3">
+                    <p class="p3">this is an image</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Images/assets/portfolio/work4.jpg" class="img4">
+                    <p class="p4">this is an image</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Images/assets/portfolio/work5.jpg" class="img5">
+                    <p class="p5">this is an image</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Images/assets/portfolio/work6.jpg" class="img6">
+                    <p class="p6">this is an image</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Images/assets/portfolio/work7.jpg" class="img7">
+                    <p class="p7">this is an image</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/Images/assets/portfolio/work8.jpg" class="img8">
+                    <p class="p8">this is an image</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="background">
         <form action="http://eepurl.com/hfRPb1" class="container">
             <h1>Login</h1>
+            <div>
+                <label for="email"><b></b></label>
+                <input type="text" placeholder="Email" name="Email" required>
 
-            <label for="email"><b></b></label>
-            <input type="text" placeholder="Email" name="Email" required>
+                <label for="name"><b></b></label>
+                <input type="text" placeholder="Name" id="name" name="Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="message"></label>
+                <input type="text" placeholder="your message" id="username" name="Message" required>
+            </div>
 
-            <label for="name"><b></b></label>
-            <input type="text" placeholder="Name" id="username" name="Name" required>
-
-            <label for="message"><b></b></label>
-            <input type="text" placeholder="your message" id="username" name="Message" required>
-
-
-
-            <button type="submit" class="btn">Login</button>
+            <div>
+                <button type="submit" class="btn">Login</button>
+            </div>
         </form>
     </div>
-
+    <br>
 
     <div class="icon">
         <img src="./Images/assets/social_icons/twitter.png">
@@ -136,4 +197,5 @@
     </div>
     <script src="/JS/script.js"></script>
 </body>
+
 </html>
