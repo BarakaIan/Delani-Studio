@@ -7,9 +7,9 @@ $(document).ready(function () {
         $(".IconsB img").toggle();
         $(".IconsB .hidden").toggle();
     })
-    $(".IconsB").click(function(){
-        $(".IconsB img").toggle();
-        $(".IconsB .hidden").toggle();
+    $(".IconsC").click(function(){
+        $(".IconsC img").toggle();
+        $(".IconsC .hidden").toggle();
     })
 
 
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
     $(".btn").submit(function(){
         var name=document.getElementById("username").value;
-        alert(username + " thankyou for now");
+        alert(username + " thankyou, we have received your message");
     })
 });
 
