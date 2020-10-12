@@ -1,6 +1,12 @@
 var myElement = document.getElementById("Icons");
 document.getElementById("Icons").innerHTML = "The text from the id01 paragraph is: " + myElement.innerHTML;
 
+$(document).ready(function () {
+    $("p").click(function () {
+        $("img").show();
+    });
+});
+
 
 
 
