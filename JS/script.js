@@ -3,6 +3,14 @@ $(document).ready(function () {
         $(".IconsA img").toggle();
         $(".IconsA .hidden").toggle();
     })
+    $(".IconsB").click(function(){
+        $(".IconsB img").toggle();
+        $(".IconsB .hidden").toggle();
+    })
+    $(".IconsB").click(function(){
+        $(".IconsB img").toggle();
+        $(".IconsB .hidden").toggle();
+    })
 
 
 
