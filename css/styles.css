@@ -1,4 +1,9 @@
-
+Container holding the image and the text
+ {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -48,11 +53,38 @@
     font-size: larger;
     font-family: helvetica;
 }
-.IMAGES {
+/* .IMAGES {
     justify-content: space-between;
     align-items: center;
     text-align: center;
     font-size: xx-large;
+} */
+.IMAGES img {
+    width: 200px;
+}
+.card {
+    width: 200px;
+}
+.IMAGES {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.IMAGES h6 {
+    text-align: center;
+}
+.card p{
+    display: none;
+    position: absolute;
+    padding: 30px;
+    background: rgba(85, 64, 104, 0.5);
+    color: white;
+    border: 2px solid white;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#username {
+    height: 130px;
+    width: 500px;
 }
 .Delani {
     background-image: url(../Images/assets/backgrounds/h_img.jpg);
@@ -86,10 +118,10 @@
     align-items: center;
     text-align: center;
 }
-.emblem {
+/* .emblem {
     display: flex;
     justify-content: space-between;
-}
+} */
 .hidden {
     display: none;
 }
