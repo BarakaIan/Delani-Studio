@@ -1,21 +1,22 @@
-var myElement = document.getElementById("Icons");
-document.getElementById("Icons").innerHTML = "The text from the id01 paragraph is: " + myElement.innerHTML;
-
 $(document).ready(function () {
-    $("p").click(function () {
-        $("img").show();
-    });
+    $(".IconsA").click(function(){
+        $(".IconsA img").toggle();
+        $(".IconsA .hidden").toggle();
+    })
+
+
+
+
+
+
+
+
+
+    $(".btn").submit(function(){
+        var name=document.getElementById("username").value;
+        alert(username + " thankyou for now");
+    })
 });
-$(document).ready(function () {
-    $("p").click(function () {
-        $("p").toggle();
-        $("p").toggle();
-    });
-});
-
-
-
-
 
 
 
