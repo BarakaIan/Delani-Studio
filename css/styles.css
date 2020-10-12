@@ -1,9 +1,4 @@
-/* Container holding the image and the text */
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -20,6 +15,7 @@
     color: black;
     font-size:xx-large;
     font-family: monospace;
+    text-align: center;
 }
 .folio {
     font-size: xx-large;
@@ -29,6 +25,8 @@
 .txt {
     color: white;
     font-family: initial;
+    font-size: smaller;
+    text-align: center;
 }
 
 .Cntrd {
@@ -52,24 +50,33 @@
 }
 .IMAGES {
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
 }
 .Delani {
     background-image: url(../Images/assets/backgrounds/h_img.jpg);
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+    font-family: helvetica;
 }
 .services {
     background-image: url(../Images/assets/backgrounds/s_image.jpg);
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
     width: 100%;
+    font-size: larger;
+    font-family: helvetica;
 }
 .background {
     background-image: url(../Images/assets/backgrounds/c_image.jpg);
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -85,4 +92,9 @@
 }
 .hidden {
     display: none;
+}
+.about {
+    align-items: center;
+    text-align: center;
+    font-family: helvetica;
 }
