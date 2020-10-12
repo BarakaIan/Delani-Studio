@@ -87,7 +87,7 @@ Container holding the image and the text
     width: 500px;
 }
 .Delani {
-    background-image: url("../Images/assets/backgrounds/h_img.jpg");
+    background-image: url("../Images/backgrounds/h_img.jpg");
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ Container holding the image and the text
     font-family: helvetica;
 }
 .services {
-    background-image: url("../Images/assets/backgrounds/s_image.jpg");
+    background-image: url("../Images/backgrounds/s_image.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ Container holding the image and the text
     font-family: helvetica;
 }
 .background {
-    background-image: url("../Images/assets/backgrounds/c_image.jpg");
+    background-image: url("../Images/backgrounds/c_image.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
