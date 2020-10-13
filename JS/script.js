@@ -54,7 +54,9 @@ $(document).ready(function(){
         $(".p8").toggle();
     });
 })
-
+function Ian() {
+    alert("hello, we have received your message. Thank you for reaching out to us.");
+}
 
 
 
