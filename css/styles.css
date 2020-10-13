@@ -87,7 +87,7 @@
     width: 500px;
 }
 .Delani {
-    background-image: url("../Images/Images/Images/backgrounds/h_img.jpg");
+    background-image: url("../Images/Baraka/Images/backgrounds/h_img.jpg");
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@
     font-family: helvetica;
 }
 .services {
-    background-image: url("../Images/Images/Images/backgrounds/s_image.jpg");
+    background-image: url("../Images/Baraka/Images/backgrounds/s_image.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@
     padding: 70px;
 }
 .background {
-    background-image: url("../Images/Images/Images/backgrounds/c_image.jpg");
+    background-image: url("../Images/Baraka/Images/backgrounds/c_image.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
