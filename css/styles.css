@@ -1,9 +1,9 @@
-Container holding the image and the text
+/* Container holding the image and the text
  {
     position: relative;
     text-align: center;
     color: white;
-}
+} */
 .centered {
     position: absolute;
     top: 50%;
@@ -87,7 +87,7 @@ Container holding the image and the text
     width: 500px;
 }
 .Delani {
-    background-image: url("../Images/backgrounds/h_img.jpg");
+    background-image: url("../Images/Images/Images/backgrounds/h_img.jpg");
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ Container holding the image and the text
     font-family: helvetica;
 }
 .services {
-    background-image: url("../Images/backgrounds/s_image.jpg");
+    background-image: url("../Images/Images/Images/backgrounds/s_image.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,9 +105,10 @@ Container holding the image and the text
     width: 100%;
     font-size: larger;
     font-family: helvetica;
+    padding: 70px;
 }
 .background {
-    background-image: url("../Images/backgrounds/c_image.jpg");
+    background-image: url("../Images/Images/Images/backgrounds/c_image.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
